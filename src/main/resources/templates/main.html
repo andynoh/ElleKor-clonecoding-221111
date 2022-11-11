@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>엘르 코리아(ELLE KOREA)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
+    <link rel="stylesheet" href="/static/css/header.css">
 </head>
 <body>
     <div id="container">
@@ -16,7 +18,7 @@
                 <div class="h-top-menu">
                     <div class="h-t-m-left">
                         <button type="button" class="h-t-menu-button"><i class="fa-solid fa-bars"></i></button>
-                        <a href="/"><img src="/static/images/logo.png" alt="logo"></a>
+                        <a href="/" class="top-logo"><img src="/static/images/logo.png" alt="logo"></a>
                     </div>
                     <div class="h-t-m-right">
                         <a href="/">LOGIN</a>
@@ -25,7 +27,7 @@
                     </div>
                 </div>
                 <div class="h-top-main">
-                    <a href="/"><img src="/static/images/logo.png" alt="logo"></a>
+                    <a href="/"><img src="/static/images/logo2.png" alt="logo"></a>
                 </div>
                 <nav>
                     <ul class="nav-ul">
@@ -39,10 +41,23 @@
             </div>
         </header>
         <article>
+            <img class="slide-offset" src="/static/images/mainbanner-background.png" alt="">
             <div class="main-slide">
                 <ul class="main-slide-img-list">
-                    <li><img src="/static/images/mainbannerimg1.jpg" alt=""></li>
-                    <li><img src="/static/images/mainbannerimg2.png" alt=""></li>
+                    <li>
+                        <img class="slideimg" src="/static/images/mainbannerimg1.jpg" alt="">
+                        <div class="text-box">
+                            <strong>꽃으로 표현한 서른의 여자</strong>
+                            <span>6인의 플로리스트가 저마다의 손길로 피워낸 서른살의 여자(ELLE),그 화려하고 소박하며 때로는 강인한 면면들</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="slideimg" src="/static/images/mainbannerimg2.png" alt="">
+                        <div class="text-box">
+                            <strong>스타일 지수 올려주는, 비니 쇼핑 리스트</strong>
+                            <span>머리 위에 푹 눌러쓴 존재감.</span>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="content1">
