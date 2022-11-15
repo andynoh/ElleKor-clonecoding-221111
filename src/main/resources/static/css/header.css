@@ -84,4 +84,9 @@ nav{
 .nav-ul li{
     font-size: 15px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-ul li:hover {
+    color: #ccc;
 }
